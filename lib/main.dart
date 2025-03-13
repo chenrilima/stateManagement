@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text('Trocar Tema do App'),
+              const Text('Trocar Tema - App'),
               ListenableBuilder(
                   listenable: themeController,
                   builder: (context, child) {
